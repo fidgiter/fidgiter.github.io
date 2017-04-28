@@ -1,0 +1,83 @@
+
+	body{margin: 0px; padding: 0px;}
+		header{height: 400px; background-image: url("border.png"); background-size: cover; }
+		h1{text-align: center; font-family: "Palanquin Dark", serif; font-size: 40px}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #AA7439;
+		}
+		li{
+			float: left;
+			border-right:1px solid #DDDDDD;
+		}
+		li a{
+			display: block;
+			padding: 25px;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			font-family: "Palanquin Dark", serif;
+
+		}
+		li a:hover {
+			background-color: #D4A26A;
+		}
+
+		section{
+			font-family: "Palanquin Dark", serif;
+			font-size: 18px;
+		}
+
+		footer{
+			clear: both;
+			background-color: #D4A26A;
+			text-align: center;
+			font-family: "Palanquin Dark", serif;
+			margin-top: 40px;
+		}
+
+		.entry {
+			border: 5px "Palanquin Dark";
+			width: 220px;
+			float: left;
+			margin: 10px;
+			height: 235px;
+
+		}
+
+		figure {
+			display: block;
+			width: 202px;
+			height: 198px;
+			margin: 0;
+			padding: 9px;
+
+		}
+
+		figure img {
+			width: 200px;
+			height: 200px;
+			border: 1px solid #d6d6d6;
+		}
+
+		.wrapper {
+			width: 750px;
+			margin: 10px auto;
+
+		}
+
+		figcaption {
+			text-align: left;
+			background-image: url("Spinner-80x80.png");
+			padding-left: 40px;
+			background-repeat: no-repeat;}
+		}
+
+
+
+
+
+
